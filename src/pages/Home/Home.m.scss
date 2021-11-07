@@ -1,0 +1,15 @@
+@import "src/styles/variables.scss";
+
+.home {
+  display: flex;
+  flex-direction: column;
+  padding: var(--spacing-10);
+
+  .card:not(:last-child) {
+    margin-bottom: var(--spacing-16);
+  }
+
+  .sender-card {
+    padding-top: var(--spacing-32);
+  }
+}
