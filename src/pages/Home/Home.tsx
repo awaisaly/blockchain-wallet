@@ -1,14 +1,14 @@
-import Card from "src/components/common/Card"
+import Fee from "src/components/Fee"
+import Receiver from "src/components/Receiver"
+import Sender from "src/components/Sender"
 import "./Home.m.scss"
 
 const Home: React.FC = () => {
   return (
     <div className="home">
-      <Card title="Receiver">Receiver Content</Card>
-      <Card title="Fee">Fee Content</Card>
-      <Card title="Sender" className="sender-card">
-        Sender Content
-      </Card>
+      <Receiver />
+      <Fee />
+      <Sender />
     </div>
   )
 }

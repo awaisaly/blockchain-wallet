@@ -1,0 +1,24 @@
+@import "src/styles/variables.scss";
+
+.btn {
+  height: 34px;
+  width: fit-content;
+  padding-left: 27px;
+  padding-right: 27px;
+  border-color: transparent;
+  border-radius: var(--border-radius-sm);
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.9;
+  }
+
+  &:active {
+    opacity: 0.8;
+  }
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}

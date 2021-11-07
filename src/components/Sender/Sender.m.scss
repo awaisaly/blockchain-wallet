@@ -1,0 +1,16 @@
+@import "src/styles/variables.scss";
+
+.sender-card {
+  padding-top: var(--spacing-48);
+
+  .card-header {
+    margin-bottom: var(--spacing-16);
+    display: flex;
+    justify-content: space-between;
+
+    .card-title {
+      font-size: var(--font-18);
+      font-weight: 600;
+    }
+  }
+}
