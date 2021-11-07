@@ -23,6 +23,6 @@ export const FEE_OPTIONS = [
   },
 ]
 
-export const getFee = (selectedFeeType: string): string => {
+export const getFee = (selectedFeeType?: string): string => {
   return FEE_OPTIONS.find(option => option.value === selectedFeeType)?.fee || "2.52"
 }
