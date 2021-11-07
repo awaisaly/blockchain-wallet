@@ -1,0 +1,26 @@
+@import "src/styles/variables.scss";
+
+.select-title {
+  font-size: var(--font-13);
+  color: var(--grey-main);
+  font-weight: 500;
+  margin-bottom: var(--spacing-6);
+}
+
+.select {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: var(--font-13);
+  outline: none;
+  border-radius: var(--border-radius-sm);
+  border: 1px solid var(--grey-700);
+  padding: var(--spacing-4) var(--spacing-8);
+
+  &:focus {
+    border-color: var(--primary-color);
+  }
+
+  &:active {
+    border-color: var(--primary-color);
+  }
+}

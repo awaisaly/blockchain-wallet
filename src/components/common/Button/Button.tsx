@@ -7,12 +7,12 @@ const Button: React.FC<React.PropsWithChildren<ButtonType>> = ({
   variant = "primary",
   type = "button",
   className,
-  ...props
+  ...domProps
 }) => {
   return (
     <button
       type={type === "submit" ? "submit" : "button"}
-      {...props}
+      {...domProps}
       className={clsx("btn", { "btn-primary": variant === "primary" }, className)}
     >
       {children}

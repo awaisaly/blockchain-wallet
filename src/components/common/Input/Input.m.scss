@@ -1,0 +1,47 @@
+@import "src/styles/variables.scss";
+
+.input-title {
+  font-size: var(--font-13);
+  color: var(--grey-main);
+  font-weight: 500;
+  margin-bottom: var(--spacing-6);
+}
+
+.input-wrapper {
+  position: relative;
+  font-size: var(--font-13);
+}
+
+.input {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: var(--font-13);
+  outline: none;
+  border: none;
+  border-bottom: 1px solid var(--grey-700);
+  padding-left: var(--spacing-0);
+  padding-right: var(--spacing-32);
+  padding-bottom: var(--spacing-4);
+
+  &:focus {
+    border-color: var(--primary-color);
+  }
+}
+
+.input-text-after {
+  position: absolute;
+  right: 0px;
+  background-color: var(--white-color);
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}

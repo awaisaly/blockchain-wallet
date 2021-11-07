@@ -1,0 +1,16 @@
+@import "src/styles/variables.scss";
+
+.fee-input-container {
+  width: 200px;
+}
+
+.fee-select-container {
+  width: 350px;
+}
+
+.fee-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  column-gap: var(--spacing-10);
+}

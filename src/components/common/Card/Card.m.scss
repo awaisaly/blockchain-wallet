@@ -6,10 +6,7 @@
   background-color: var(--white-color);
   color: var(--black-color);
   border-radius: var(--border-raduis-lg);
-  padding-top: var(--spacing-24);
-  padding-bottom: var(--spacing-24);
-  padding-left: var(--spacing-16);
-  padding-right: var(--spacing-16);
+  padding: var(--spacing-24) var(--spacing-16);
 
   .card-header {
     font-size: var(--font-18);

@@ -1,0 +1,16 @@
+@import "src/styles/variables.scss";
+
+.receiver-input-container {
+  width: 200px;
+}
+
+.receiver-select-container {
+  width: 350px;
+}
+
+.receiver-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  column-gap: var(--spacing-10);
+}

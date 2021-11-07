@@ -1,10 +1,6 @@
 import clsx from "clsx"
 import "./Card.m.scss"
-
-interface CardProps {
-  title?: string
-  className?: string
-}
+import { CardProps } from "./Card.types"
 
 const Card: React.FC<React.PropsWithChildren<CardProps>> = ({ children, title, className }) => {
   return (
