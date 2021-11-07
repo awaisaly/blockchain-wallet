@@ -6,6 +6,7 @@ import "./Home.m.scss"
 
 const Home: React.FC = () => {
   const [amount, setAmount] = useState("")
+  const [address, setAddress] = useState("")
 
   return (
     <div className="home">
@@ -13,9 +14,12 @@ const Home: React.FC = () => {
         onAmountChange={(val: string) => {
           setAmount(val)
         }}
+        onAddressChange={(val: string) => {
+          setAddress(val)
+        }}
       />
       <Fee />
-      <Sender amount={amount} />
+      <Sender amount={amount} address={address} />
     </div>
   )
 }

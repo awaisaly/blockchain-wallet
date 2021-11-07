@@ -1,0 +1,55 @@
+@import "src/styles/variables.scss";
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+
+  td,
+  th {
+    font-size: var(--font-12);
+    text-align: left;
+    padding: 8px;
+  }
+
+  th {
+    background-color: var(--grey-700);
+    color: var(--grey-main);
+    height: 20px;
+  }
+
+  td {
+    height: 28px;
+  }
+
+  tr:nth-child(even) {
+    background-color: var(--grey-700);
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .danger {
+    color: var(--danger-color);
+  }
+
+  .info {
+    color: var(--info-color);
+  }
+
+  .address-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .address-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    margin-right: var(--spacing-4);
+  }
+}

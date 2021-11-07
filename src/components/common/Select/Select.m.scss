@@ -2,7 +2,7 @@
 
 .select-title {
   font-size: var(--font-13);
-  color: var(--grey-main);
+  color: var(--grey-900);
   font-weight: 500;
   margin-bottom: var(--spacing-6);
 }
@@ -13,7 +13,7 @@
   font-size: var(--font-13);
   outline: none;
   border-radius: var(--border-radius-sm);
-  border: 1px solid var(--grey-700);
+  border: 1px solid var(--grey-800);
   padding: var(--spacing-4) var(--spacing-8);
 
   &:focus {

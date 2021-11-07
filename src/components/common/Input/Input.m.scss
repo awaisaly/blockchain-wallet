@@ -2,14 +2,13 @@
 
 .input-title {
   font-size: var(--font-13);
-  color: var(--grey-main);
+  color: var(--grey-900);
   font-weight: 500;
   margin-bottom: var(--spacing-6);
 }
 
 .input-wrapper {
   position: relative;
-  font-size: var(--font-13);
 }
 
 .input {
@@ -18,7 +17,7 @@
   font-size: var(--font-13);
   outline: none;
   border: none;
-  border-bottom: 1px solid var(--grey-700);
+  border-bottom: 1px solid var(--grey-800);
   padding-left: var(--spacing-0);
   padding-right: var(--spacing-32);
   padding-bottom: var(--spacing-4);
@@ -32,6 +31,10 @@
   position: absolute;
   right: 0px;
   background-color: var(--white-color);
+  color: var(--grey-main);
+  font-size: var(--font-13);
+  font-weight: 500;
+  letter-spacing: -0.3px;
 }
 
 /* Chrome, Safari, Edge, Opera */
