@@ -34,7 +34,7 @@ const TEST_SENDER_DATA = {
   balance: 100.9999999,
 }
 
-describe("testing utils", () => {
+describe("utils", () => {
   test("matching default address", () => {
     expect(DEFAULT_ACCOUNT_ADDRESS).toBe(TEST_DEFAULT_ACCOUNT_ADDRESS)
   })
